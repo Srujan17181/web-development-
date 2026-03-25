@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentGradeManager</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="student.css">
+</head>
+<body>
+    <div class="card">
+    <div class="input-form">
+    <input type="text" placeholder="enter Your name:" id="username">
+    <input type="array" placeholder="enter your Marks in form of Array" id="usermark">
+    <button id="user-button">click</button>
+    </div>
+   
+    <div class="resultDetails">
+        <p id="name">Name</p>
+        <p id="total">Total</p>
+        <p id="average">average</p>
+        <p id="grade">grade</p>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+    <script src="function.js"></script>
+</body>
+</html>
